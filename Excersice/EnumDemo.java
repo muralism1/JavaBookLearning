@@ -9,11 +9,13 @@ public class EnumDemo {
         JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
     }
 
+    
     public static void main(String[] args) {
         Day tgif; // Declare a variable of type Day.
         Month libra; // Declare a variable of type Month.
         tgif = Day.SUNDAY; // Assign a value of type Day to tgif.
         libra = Month.OCT; // Assign a value of type Month to libra.
+        System.out.println("hi");
         System.out.print("My sign is libra, since I was born in ");
         System.out.println(libra); // Output value will be: OCT
         System.out.print("That's the ");
