@@ -7,6 +7,7 @@ public class StringTest {
 
         String s1 ="wwww cat";
         String s2 ="cat";
+        System.out.println(s2.toCharArray());
         System.out.println("Equal "+s1.equals(s2));
         System.out.println("EqualsIgnore " +s1.equalsIgnoreCase(s2));
 
