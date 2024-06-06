@@ -26,6 +26,9 @@ public class EnumDemo {
         System.out.println(tgif); // Output value will be: FRIDAY
         System.out.println(tgif + " is the " + tgif.ordinal()
                 + "-th day of the week.");
+
+        System.out.println(Month.APR);
+        
         // You can concatenate enum values onto Strings!
     }
 
