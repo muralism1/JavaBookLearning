@@ -24,8 +24,7 @@ public class PrintFormat {
         // Vice-versa not possible 
         System.out.printf("%S \n", str); 
         System.out.printf("%s \n", str); 
-
-        System.out.println();
+S
 
     }
 }
