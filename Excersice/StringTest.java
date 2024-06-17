@@ -13,9 +13,6 @@ public class StringTest {
 
         System.out.println("Length of s1 "+s1.length());
         System.out.println("char at :"+s1.charAt(1));
-
-        System.out.println("Substring "+s1.substring(0, 2));
-
         System.out.println("Index of "+s1.indexOf(s2));
 
         System.out.println("Compare "+s1.compareTo(s2));
